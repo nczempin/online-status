@@ -8,4 +8,6 @@ public interface UserActivityService {
      * @return True if the user is active, false otherwise.
      */
     boolean isUserActive(long userId);
+
+    void markUserAsActive(long userId);
 }
