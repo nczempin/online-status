@@ -7,5 +7,5 @@ public interface UserActivityService {
      * @param userId The ID of the user to check.
      * @return True if the user is active, false otherwise.
      */
-    boolean isUserActive(String userId);
+    boolean isUserActive(long userId);
 }
